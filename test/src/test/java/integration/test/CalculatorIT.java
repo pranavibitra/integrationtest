@@ -17,5 +17,8 @@ private static Calintegrate calc;
 	public void testintegrate() {
 		assertEquals(2,calc.sub(calc.add(2,2),calc.add(1,1)));
 	}
-
+	@Test
+	public void testintegrate1() {
+		assertEquals(1,calc.sub(calc.add(3,1),calc.add(1,2)));
+	}
 }
