@@ -21,5 +21,9 @@ public class IntegrateTest {
 	public void testsub() {
 		assertEquals(5,calc.sub(7, 2));
 	}
+	@Test
+	public void testsub1() {
+		assertEquals(4,calc.sub(8, 4));
+	}
 
 }
